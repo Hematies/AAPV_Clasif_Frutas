@@ -6,7 +6,7 @@ Está compuesto por dos apartados independientes: Pytorch-Brevitas y FINN. Respe
 
 ## Pytorch-Brevitas
 
-Se incluyen dos scripts:
+### Scripts
 
 - __ClasificadorFrutas.py__: Script usado para entrenar, testear y exportar el modelo de CNN. Si se quiere reproducir la ejecución bastaría con indicar los directorios de training y test de Fruit360 mediante la modificación de las variables "*carpetaTraining*" y "*carpetaTest*". Los modelos y los ficheros ONNX se guardarán en la carpeta "modelos".
 - __commonQuant.py__: Script que define un conjunto de wrappers para diferentes capas cuantizadas de la librería de Brevitas.
@@ -22,7 +22,7 @@ En este caso, solo haría falta ejecutar el script __ClasificadorFrutas.py__ des
 
 ## FINN
 
-Se incluye un único notebook de scripts:
+### Scripts
 
 - __notebook_final.py__: Notebook modificado a partir del ejemplo "end2end_example/bnn-pynq" del proyecto FINN. Se modifica para poder adaptarlo a la red convolucional cuantizada generada por los scripts de Pytorch-Brevitas. Se han verificado todos los pasos hasta el apartado "5: Deployment and Remote Execution", por lo que solo se incluyen los pasos anteriores a dicho apartado.
 
