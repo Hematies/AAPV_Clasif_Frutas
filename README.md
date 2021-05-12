@@ -28,6 +28,10 @@ Se incluye un único notebook de scripts:
 
 Para la ejecución de este notebook, cabe realizar los pasos especificados en https://finn.readthedocs.io/en/latest/getting_started.html, y colocar el notebook en la carpeta "finn/notebooks" para su ejecución vía el servicio Jupyter que despliega el Docker de FINN. Además, habría que colocar el modelo ONNX exportado anteriormente en el directorio "finn/", así como indicar el nombre de dicho fichero ONNX en el segundo bloque de código del notebook.
 
+Tras la ejecución completa del notebook, se encontrarán todos los ficheros generados en el directorio "/tmp/finn_dev_<USUARIO>/vivado_zynq_proj_<...>". 
+  
+NOTA: Si alguno de los pasos falla durante la ejecución del notebook, por favor, póngase en contacto con el autor de este repositorio.
+
 ### Dependencias usadas:
 
 - Las indicadas en https://finn.readthedocs.io/en/latest/getting_started.html
