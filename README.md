@@ -1,6 +1,6 @@
 # AAPV_Clasif_Frutas
 
-Software del trabajo "Clasificación de frutas: implementación hardware"desarrollado para la asignatura de Arquitecturas de Altas Prestaciones para Visión. 
+Software del trabajo "Clasificación de frutas: implementación hardware" desarrollado para la asignatura de Arquitecturas de Altas Prestaciones para Visión. 
 
 Está compuesto por dos apartados independientes: Pytorch-Brevitas y FINN. Respectivamente, estos se corresponden con el desarrollo de una CNN cuantizada para la clasificación de frutas del dataset "Fruit360" y con su optimización, implementación y despliegue en hardware.
 
