@@ -30,7 +30,7 @@ Para la ejecución de este notebook, cabe realizar los pasos especificados en ht
 
 Tras la ejecución completa del notebook, se encontrarán todos los ficheros generados en el directorio "/tmp/finn_dev_<USUARIO>/vivado_zynq_proj_<...>" del contenedor que ejecuta FINN. 
   
-NOTA: Si alguno de los pasos falla durante la ejecución del notebook, por favor, póngase en contacto con el autor de este repositorio.
+NOTA: Si alguno de los pasos falla durante la ejecución del notebook, por favor, póngase en contacto con el autor de este repositorio. Concretamente, se realizaron ciertos cambios en el código fuente de FINN (en la función *RemoveCNVToFCFlatten()*) en local que no se tiene a ciencia cierta si son necesarios para la reproducibilidad del presente proyecto.
 
 ### Dependencias usadas:
 
